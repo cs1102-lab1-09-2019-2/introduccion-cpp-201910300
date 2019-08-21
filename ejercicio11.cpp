@@ -1,5 +1,8 @@
 
-bool esPalindromo(int n) {
+#include <iostream>
+#include<cassert>
+bool esPalindromo(int n) 
+{
     bool palindromo = true;
     std::string s = std::to_string(n);
     int len = s.length();
@@ -9,7 +12,7 @@ bool esPalindromo(int n) {
             break;
         }
     }
-
+  return 0;
 }
 
 int main() {
